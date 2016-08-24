@@ -88,9 +88,9 @@ Finally, in our view, we run the widget:
 ]) ?>
 ```
 
-All models and views used for the exemple are inside the folder demo-data.
+All models, views and CSS styles used for the exemple are inside the folder demo-data.
 The template named index.php adds a filter buttons to test the filtering methods.
-Its a similar exemple that it's explained in the Isotope plugin documentation (http://isotope.metafizzy.co/filtering.html)
+It's a similar exemple that it's explained inside the Isotope documentation (http://isotope.metafizzy.co/filtering.html)
 
 ```
 <div class="button-group filters-button-group">
@@ -134,136 +134,6 @@ Its a similar exemple that it's explained in the Isotope plugin documentation (h
 		"@web/css/grid-demo.css"		
 	]
 ]) ?>
-```
-
-Below, the css used for the demo:
-
-```
-/* ---- grid ---- */
-.grid {
-  border: 1px solid #333;
-}
-
-/* clearfix */
-.grid:after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
-/* grid-item */
-.grid-item {
-  position: relative;
-  float: left;
-  width: 100px;
-  height: 100px;
-  margin: 5px;
-  padding: 10px;
-  background: #888;
-  color: #262524;
-}
-
-.grid-item > * {
-  margin: 0;
-  padding: 0;
-}
-
-.grid-item .name {
-  position: absolute;
-
-  left: 10px;
-  top: 60px;
-  text-transform: none;
-  letter-spacing: 0;
-  font-size: 0.8em;
-  font-weight: normal;
-}
-
-.grid-item .symbol {
-  position: absolute;
-  left: 10px;
-  top: 0px;
-  font-size: 2.8em;
-  font-weight: bold;
-  color: white;
-}
-
-.grid-item .number {
-  position: absolute;
-  right: 8px;
-  top: 5px;
-}
-
-.grid-item .weight {
-  position: absolute;
-  left: 10px;
-  top: 76px;
-  font-size: 0.8em;
-}
-
-.grid-item.alkali          { background: #F00; background: hsl(   0, 100%, 50%); }
-.grid-item.alkaline-earth  { background: #F80; background: hsl(  36, 100%, 50%); }
-.grid-item.lanthanoid      { background: #FF0; background: hsl(  72, 100%, 50%); }
-.grid-item.actinoid        { background: #0F0; background: hsl( 108, 100%, 50%); }
-.grid-item.transition      { background: #0F8; background: hsl( 144, 100%, 50%); }
-.grid-item.post-transition { background: #0FF; background: hsl( 180, 100%, 50%); }
-.grid-item.metalloid       { background: #08F; background: hsl( 216, 100%, 50%); }
-.grid-item.diatomic        { background: #00F; background: hsl( 252, 100%, 50%); }
-.grid-item.halogen         { background: #F0F; background: hsl( 288, 100%, 50%); }
-.grid-item.noble-gas       { background: #F08; background: hsl( 324, 100%, 50%); }
-
-/* ---- button ---- */
-.button {
-  display: inline-block;
-  padding: 10px 18px;
-  margin-bottom: 10px;
-  background: #EEE;
-  border: none;
-  border-radius: 7px;
-  background-image: linear-gradient( to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2) );
-  color: #222;
-  font-family: sans-serif;
-  font-size: 16px;
-  text-shadow: 0 1px white;
-  cursor: pointer;
-}
-
-.button:hover {
-  background-color: #8CF;
-  text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
-  color: #222;
-}
-
-.button:active,
-.button.is-checked {
-  background-color: #28F;
-}
-
-.button.is-checked {
-  color: white;
-  text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
-}
-
-.button:active {
-  box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
-}
-
-/* ---- button-group ---- */
-.button-group:after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
-.button-group .button {
-  float: left;
-  border-radius: 0;
-  margin-left: 0;
-  margin-right: 1px;
-}
-
-.button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }
-.button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }
 ```
 
 You may also be interested in MatchHeight.js ListView widget:
