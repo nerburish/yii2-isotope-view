@@ -1,0 +1,22 @@
+{
+    "name": "nerburish/yii2-isotope-view",
+    "description": "ListView widget improved to use Isotope (http://isotope.metafizzy.co/)",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","isotope","masonry","dataprovider","listview","view","widget"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nerburish",
+            "email": "nerburish@hotmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+		"bower-asset/isotope": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "nerburish\\isotopeview\\": ""
+        }
+    }	
+}
