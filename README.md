@@ -4,7 +4,7 @@ Yii2 Isotope ListView Widget
 Yii2 widget to extend the Yii2 ListView for use it as Isotope grid (http://isotope.metafizzy.co/)
 
 Widget demo screenshot:
-![masonry-view-demo](https://cloud.githubusercontent.com/assets/5610788/17868085/7fc5279a-68ad-11e6-92ff-963f4781d4a8.png)
+![demo](https://cloud.githubusercontent.com/assets/5610788/17946123/49153582-6a47-11e6-914d-f6424523836a.gif)
 
 Installation
 ------------
