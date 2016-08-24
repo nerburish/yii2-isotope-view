@@ -90,7 +90,7 @@ Finally, in our view, we run the widget:
 
 All models and views used for the exemple are inside the folder demo-data.
 The template named index.php adds a filter buttons to test the filtering methods.
-Its a similar exemple that its show in the plugin documentation
+Its a similar exemple that it's explained in the Isotope plugin documentation (http://isotope.metafizzy.co/filtering.html)
 
 ```
 <div class="button-group filters-button-group">
